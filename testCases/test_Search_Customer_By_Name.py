@@ -44,7 +44,7 @@ class Test_005_Search_Customer_By_Name:
         # srCus.clickOnSearchIcon()
         # time.sleep(5)
 
-        # Start searchin process
+        # Start search in process
         self.logger.info("******* Start searching processes with Name ***********")
         srCus.setFirstName("Victoria")
         srCus.setLastName("Terces")
