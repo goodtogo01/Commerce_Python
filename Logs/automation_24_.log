@@ -1,0 +1,14 @@
+12/12/2023 09:30:49 PM: INFO: ***************** Test_002_DDT_Login **********************
+12/12/2023 09:30:49 PM: INFO: ***************** Verifying Login DDT Test **********************
+12/12/2023 09:31:00 PM: INFO:  **** Satus is Passed ****
+12/12/2023 09:31:01 PM: INFO: **** Login DDT Test is Passed ****
+12/12/2023 09:37:14 PM: INFO: ***************** Test_002_DDT_Login **********************
+12/12/2023 09:37:14 PM: INFO: ***************** Verifying Login DDT Test **********************
+12/12/2023 09:37:37 PM: INFO:  **** Satus is Passed ****
+12/13/2023 10:44:55 PM: INFO: ***************** Test_004_Search_Customer_By_Email ******************
+
+12/13/2023 10:44:55 PM: INFO: ***************** Start Login with Valid Credentials **********************
+12/13/2023 10:45:09 PM: INFO: **************** Login Successful *******************
+12/13/2023 10:45:09 PM: INFO: ******* Start processing to searching a existing customer ***********
+12/13/2023 10:45:09 PM: INFO: ******* Moving to the search page ***********
+12/13/2023 10:45:16 PM: INFO: ******* Start searching processes with email id ***********

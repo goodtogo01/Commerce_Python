@@ -1,0 +1,8 @@
+12/12/2023 01:16:31 PM: INFO: ***************** Start Login with Valid Credentials **********************
+12/12/2023 01:16:31 PM: INFO: ***************** Varify Login Page Title **********************
+12/12/2023 01:16:44 PM: INFO: ***************** Page Title verification is Passed **********************
+12/12/2023 09:56:48 PM: INFO: ***************** Test_002_DDT_Login **********************
+12/12/2023 09:56:48 PM: INFO: ***************** Verifying Login DDT Test **********************
+12/12/2023 09:57:06 PM: ERROR: **** Satus is Failed ****
+12/12/2023 09:57:06 PM: INFO: ***************** End of Login with DDT **********************
+12/12/2023 09:57:06 PM: INFO: ***************** Completed Test_002_DDT_Login **********************
