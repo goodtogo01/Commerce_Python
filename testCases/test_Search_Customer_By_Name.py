@@ -35,14 +35,14 @@ class Test_005_Search_Customer_By_Name:
         addCus = AC(driver)
         srCus = SC(driver)
 
-        # Moving to search page
+        # Moving to search pages
         self.logger.info("******* Moving to the search page ***********")
         addCus.clicCustomerMainManu()
         time.sleep(3)
         addCus.clickCustomerManu()
         time.sleep(3)
         # srCus.clickOnSearchIcon()
-        # time.sleep(5)
+        time.sleep(5)
 
         # Start search in process
         self.logger.info("******* Start searching processes with Name ***********")
