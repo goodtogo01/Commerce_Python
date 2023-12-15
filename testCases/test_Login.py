@@ -1,6 +1,8 @@
 import time
 from secrets import randbelow
 
+import pytest
+
 from pageObjects.LoginPage import Login_Functionalities as LP
 from utilities.readProperties import ReadProperties
 from utilities.customLogger import LogGenerations
@@ -14,7 +16,9 @@ class Test_001_Logins:
     rand = str(randbelow(55))
     logger = LogGenerations.logGen()
 
-    def test_Homepage_Title(self, setup):
+    @pytest.mark.sanity
+    @pytest.mark.parametrize("a, b, result", [(10, 10, 20), (15, 10, 24)])
+    def test_Homepage_Title(self, setup, a,b,result):
         self.logger.info("***************** Test_001_Start_Execution **********************")
         driver = setup
         driver.get(self.baseURL)
@@ -24,12 +28,15 @@ class Test_001_Logins:
             assert True
             self.logger.info("***************** Page Title Passed **********************")
             print("The Title is Expected as : ", actual_Title)
+            assert a + b == result
         else:
             print("The Title is not Expected as : ", driver.title)
             self.logger.error("***************** Page Title is Failed **********************")
             assert False
+
         driver.close()
 
+    @pytest.mark.regression
     def test_login_with_valid_credentials(self, setup):
         self.logger.info("***************** Start Login with Valid Credentials **********************")
         self.logger.info("***************** Varify Login Page Title **********************")

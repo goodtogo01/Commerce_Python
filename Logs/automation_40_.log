@@ -1,0 +1,17 @@
+12/14/2023 04:22:05 PM: INFO: ***************** Test_003_Add_New_Customer ******************
+
+12/14/2023 04:22:05 PM: INFO: ***************** Start Login with Valid Credentials **********************
+12/14/2023 04:22:10 PM: INFO: **************** Login Successful *******************
+12/14/2023 04:22:10 PM: INFO: ******* Start processing to adding new customer details ***********
+12/14/2023 04:22:20 PM: INFO: ******* Start adding new customer details ***********
+12/14/2023 04:22:38 PM: INFO: *******  new customer details is saved ***********
+12/14/2023 04:22:38 PM: INFO: 
+******* Verify the newly created customer ***********
+12/14/2023 04:22:38 PM: INFO: ********** Customer added successfully **************
+12/14/2023 04:22:40 PM: INFO: ***************** Test_003_Add_New_Customer is completed ******************
+12/14/2023 04:22:48 PM: INFO: ***************** Test_001_Start_Execution **********************
+12/14/2023 04:22:49 PM: INFO: ***************** Page Title Passed **********************
+12/14/2023 04:22:58 PM: INFO: ***************** Test_001_Start_Execution **********************
+12/14/2023 04:22:58 PM: INFO: ***************** Page Title Passed **********************
+12/14/2023 04:23:06 PM: INFO: ***************** Start Login with Valid Credentials **********************
+12/14/2023 04:23:06 PM: INFO: ***************** Varify Login Page Title **********************

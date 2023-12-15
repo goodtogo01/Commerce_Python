@@ -1,6 +1,8 @@
 import time
 from secrets import randbelow
 
+import pytest
+
 from pageObjects.LoginPage import Login_Functionalities as LP
 from utilities.readProperties import ReadProperties
 from utilities.customLogger import LogGenerations
@@ -14,6 +16,7 @@ class Test_002_DDT_Login:
     rand = str(randbelow(55))
     logger = LogGenerations.logGen()
 
+    @pytest.mark.regression
     def test_login_with_ddt(self, setup):
         self.logger.info("***************** Test_002_DDT_Login **********************")
         self.logger.info("***************** Verifying Login DDT Test **********************")

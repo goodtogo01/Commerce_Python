@@ -42,6 +42,7 @@ class AddCustomer:
         self.driver = driver
 
     def clicCustomerMainManu(self):
+
         self.driver.find_element(By.XPATH, self.link_Customer_main_menu_xpath).click()
 
     def clickCustomerManu(self):

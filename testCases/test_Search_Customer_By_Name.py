@@ -3,6 +3,8 @@ import string
 import time
 from secrets import randbelow
 
+import pytest
+
 from pageObjects.LoginPage import Login_Functionalities as LP
 from pageObjects.AddCustomerPage import AddCustomer as AC
 from pageObjects.Search_Customer_by_Email import SearchCustomer as SC
@@ -19,6 +21,7 @@ class Test_005_Search_Customer_By_Name:
     rand = str(randbelow(55))
     logger = LogGenerations.logGen()
 
+    @pytest.mark.regression
     def test_search_customerByName(self, setup):
         self.logger.info("***************** Test_004_Search_Customer_By_Email ******************\n")
         self.logger.info("***************** Start Login with Valid Credentials **********************")

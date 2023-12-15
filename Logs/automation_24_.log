@@ -12,3 +12,37 @@
 12/13/2023 10:45:09 PM: INFO: ******* Start processing to searching a existing customer ***********
 12/13/2023 10:45:09 PM: INFO: ******* Moving to the search page ***********
 12/13/2023 10:45:16 PM: INFO: ******* Start searching processes with email id ***********
+12/14/2023 02:45:12 PM: INFO: ***************** Test_003_Add_New_Customer ******************
+
+12/14/2023 02:45:12 PM: INFO: ***************** Start Login with Valid Credentials **********************
+12/14/2023 02:45:15 PM: INFO: **************** Login Successful *******************
+12/14/2023 02:45:15 PM: INFO: ******* Start processing to adding new customer details ***********
+12/14/2023 02:45:27 PM: INFO: ******* Start adding new customer details ***********
+12/14/2023 02:45:44 PM: INFO: *******  new customer details is saved ***********
+12/14/2023 02:45:44 PM: INFO: 
+******* Verify the newly created customer ***********
+12/14/2023 02:45:45 PM: INFO: ********** Customer added successfully **************
+12/14/2023 02:45:46 PM: INFO: ***************** Test_003_Add_New_Customer is completed ******************
+12/14/2023 02:46:01 PM: INFO: ***************** Start Login with Valid Credentials **********************
+12/14/2023 02:46:01 PM: INFO: ***************** Varify Login Page Title **********************
+12/14/2023 02:46:19 PM: INFO: ***************** Page Title verification is Passed **********************
+12/14/2023 02:46:32 PM: INFO: ***************** Test_002_DDT_Login **********************
+12/14/2023 02:46:32 PM: INFO: ***************** Verifying Login DDT Test **********************
+12/14/2023 02:46:46 PM: ERROR: **** Satus is Failed ****
+12/14/2023 02:46:46 PM: INFO: ***************** End of Login with DDT **********************
+12/14/2023 02:46:46 PM: INFO: ***************** Completed Test_002_DDT_Login **********************
+12/14/2023 02:46:56 PM: INFO: ***************** Test_004_Search_Customer_By_Email ******************
+
+12/14/2023 02:46:56 PM: INFO: ***************** Start Login with Valid Credentials **********************
+12/14/2023 02:47:07 PM: INFO: **************** Login Successful *******************
+12/14/2023 02:47:07 PM: INFO: ******* Start processing to searching a existing customer ***********
+12/14/2023 02:47:07 PM: INFO: ******* Moving to the search page ***********
+12/14/2023 02:47:15 PM: INFO: ******* Start searching processes with email id ***********
+12/14/2023 02:47:26 PM: INFO: ***************** Test_004_Search_Customer_By_Email is completed ******************
+
+12/14/2023 02:47:38 PM: INFO: ***************** Test_004_Search_Customer_By_Email ******************
+
+12/14/2023 02:47:38 PM: INFO: ***************** Start Login with Valid Credentials **********************
+12/14/2023 02:47:41 PM: INFO: **************** Login Successful *******************
+12/14/2023 02:47:41 PM: INFO: ******* Start processing to searching a existing customer ***********
+12/14/2023 02:47:41 PM: INFO: ******* Moving to the search page ***********

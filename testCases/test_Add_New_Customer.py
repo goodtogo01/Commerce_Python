@@ -3,6 +3,8 @@ import string
 import time
 from secrets import randbelow
 
+import pytest
+
 from pageObjects.LoginPage import Login_Functionalities as LP
 from pageObjects.AddCustomerPage import AddCustomer as AC
 from utilities.readProperties import ReadProperties
@@ -18,6 +20,7 @@ class Test_003_Add_New_Customer:
     rand = str(randbelow(55))
     logger = LogGenerations.logGen()
 
+    @pytest.mark.regression
     def test_add_customer(self, setup):
         self.logger.info("***************** Test_003_Add_New_Customer ******************\n")
         self.logger.info("***************** Start Login with Valid Credentials **********************")

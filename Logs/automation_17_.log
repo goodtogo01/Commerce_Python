@@ -8,3 +8,22 @@
 12/12/2023 02:43:32 PM: INFO: ***************** Start Login with Valid Credentials **********************
 12/12/2023 02:43:32 PM: INFO: ***************** Varify Login Page Title **********************
 12/12/2023 02:43:45 PM: INFO: ***************** Page Title verification is Passed **********************
+12/14/2023 04:19:46 PM: INFO: ***************** Test_003_Add_New_Customer ******************
+
+12/14/2023 04:19:46 PM: INFO: ***************** Start Login with Valid Credentials **********************
+12/14/2023 04:19:50 PM: INFO: **************** Login Successful *******************
+12/14/2023 04:19:50 PM: INFO: ******* Start processing to adding new customer details ***********
+12/14/2023 04:20:00 PM: INFO: ******* Start adding new customer details ***********
+12/14/2023 04:20:18 PM: INFO: *******  new customer details is saved ***********
+12/14/2023 04:20:18 PM: INFO: 
+******* Verify the newly created customer ***********
+12/14/2023 04:20:18 PM: INFO: ********** Customer added successfully **************
+12/14/2023 04:20:19 PM: INFO: ***************** Test_003_Add_New_Customer is completed ******************
+12/14/2023 04:20:27 PM: INFO: ***************** Start Login with Valid Credentials **********************
+12/14/2023 04:20:27 PM: INFO: ***************** Varify Login Page Title **********************
+12/14/2023 04:20:39 PM: INFO: ***************** Page Title verification is Passed **********************
+12/14/2023 04:20:48 PM: INFO: ***************** Test_002_DDT_Login **********************
+12/14/2023 04:20:48 PM: INFO: ***************** Verifying Login DDT Test **********************
+12/14/2023 04:21:04 PM: ERROR: **** Satus is Failed ****
+12/14/2023 04:21:04 PM: INFO: ***************** End of Login with DDT **********************
+12/14/2023 04:21:04 PM: INFO: ***************** Completed Test_002_DDT_Login **********************

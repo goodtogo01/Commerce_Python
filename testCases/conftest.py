@@ -1,3 +1,4 @@
+
 from selenium import webdriver
 import pytest
 from pytest_metadata.plugin import metadata_key
@@ -18,7 +19,7 @@ def setup(browser):
         print("\nLaunching firefox browser............................")
         driver = webdriver.Firefox()
 
-    # driver.delete_all_cookies()
+    driver.delete_all_cookies()
     driver.maximize_window()
     return driver
 
@@ -32,18 +33,6 @@ def browser(request):
     return request.config.getoption("--browser")
 
 
-# Generate Pytest Reports
-# Hooks for adding Environment info to HTML Report
-# @pytest.hookimpl(optionalhook=True)
-# def pytest_configure(config):
-#     """:type config: object"""
-#     config._metadata = {
-#         "Project Name": 'Commerce App',
-#         "Module Name ": 'User Operation',
-#         "Author Name": 'Khosruz zaman'
-#     }.
-
-
 @pytest.hookimpl(tryfirst=True)
 def pytest_sessionfinish(session, exitstatus):
     session.config.stash[metadata_key]["Project Name"] = "Commerce App"
@@ -52,7 +41,7 @@ def pytest_sessionfinish(session, exitstatus):
 
 
 # Hooks for delete or modify environment info
-@pytest.hookimpl(optionalhook=True)
+
 def pytest_metadata(metadata):
     metadata.pop("JAVA_HOME", None)
     metadata.pop("Plugins", None)
@@ -60,5 +49,4 @@ def pytest_metadata(metadata):
 
 
 def pytest_html_report_title(report):
-    ''' modifying the title of html report'''
     report.title = "Commerce Application"
