@@ -17,8 +17,7 @@ class Test_001_Logins:
     logger = LogGenerations.logGen()
 
     @pytest.mark.sanity
-    @pytest.mark.parametrize("a, b, result", [(10, 10, 20), (15, 10, 24)])
-    def test_Homepage_Title(self, setup, a,b,result):
+    def test_Homepage_Title(self, setup):
         self.logger.info("***************** Test_001_Start_Execution **********************")
         driver = setup
         driver.get(self.baseURL)
@@ -28,7 +27,7 @@ class Test_001_Logins:
             assert True
             self.logger.info("***************** Page Title Passed **********************")
             print("The Title is Expected as : ", actual_Title)
-            assert a + b == result
+
         else:
             print("The Title is not Expected as : ", driver.title)
             self.logger.error("***************** Page Title is Failed **********************")

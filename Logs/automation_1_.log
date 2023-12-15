@@ -2,3 +2,8 @@
 12/12/2023 09:51:20 PM: INFO: ***************** Verifying Login DDT Test **********************
 12/12/2023 09:51:30 PM: INFO:  **** Satus is Passed ****
 12/12/2023 09:51:30 PM: INFO: **** Login DDT Test is Passed ****
+12/15/2023 12:23:31 PM: INFO: ***************** Test_001_Start_Execution **********************
+12/15/2023 12:23:32 PM: INFO: ***************** Page Title Passed **********************
+12/15/2023 12:23:35 PM: INFO: ***************** Start Login with Valid Credentials **********************
+12/15/2023 12:23:35 PM: INFO: ***************** Varify Login Page Title **********************
+12/15/2023 12:23:48 PM: INFO: ***************** Page Title verification is Passed **********************

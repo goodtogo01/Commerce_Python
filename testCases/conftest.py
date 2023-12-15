@@ -1,10 +1,9 @@
-
 from selenium import webdriver
 import pytest
 from pytest_metadata.plugin import metadata_key
 
 
-@pytest.fixture()
+@pytest.fixture(autouse=True)
 def setup(browser):
     if browser == "chrome":
         print("\nLaunching chrome browser............................")
@@ -41,7 +40,7 @@ def pytest_sessionfinish(session, exitstatus):
 
 
 # Hooks for delete or modify environment info
-
+@pytest.hookimpl(tryfirst=True)
 def pytest_metadata(metadata):
     metadata.pop("JAVA_HOME", None)
     metadata.pop("Plugins", None)
