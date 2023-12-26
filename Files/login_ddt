@@ -9,7 +9,7 @@ from utilities.customLogger import LogGenerations
 from utilities import XLUtils
 from ddt import ddt, data, unpack
 
-
+@ddt
 class Test_002_DDT_Login:
     baseURL = ReadProperties.getURL()
     data_sheet_path = "C:\\Users\\zaman\\PycharmProjects\\CommerceApp\\TestData\\test_Data.xlsx"

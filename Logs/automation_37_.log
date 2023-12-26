@@ -1,9 +1,11 @@
-12/12/2023 12:48:06 PM: INFO: ***************** Start Login with Valid Credentials **********************
-12/12/2023 12:48:06 PM: INFO: ***************** Varify Login Page Title **********************
-12/13/2023 10:42:49 PM: INFO: ***************** Test_004_Search_Customer_By_Email ******************
+12/21/2023 11:55:38 AM: INFO: ***************** Test_003_Add_New_Customer ******************
 
-12/13/2023 10:42:49 PM: INFO: ***************** Start Login with Valid Credentials **********************
-12/13/2023 10:43:02 PM: INFO: **************** Login Successful *******************
-12/13/2023 10:43:02 PM: INFO: ******* Start processing to searching a existing customer ***********
-12/13/2023 10:43:02 PM: INFO: ******* Moving to the search page ***********
-12/13/2023 10:43:12 PM: INFO: ******* Start searching processes with email id ***********
+12/21/2023 11:55:38 AM: INFO: ***************** Start Login with Valid Credentials **********************
+12/21/2023 11:55:44 AM: INFO: **************** Login Successful *******************
+12/21/2023 11:55:44 AM: INFO: ******* Start processing to adding new customer details ***********
+12/21/2023 11:55:55 AM: INFO: ******* Start adding new customer details ***********
+12/21/2023 11:56:12 AM: INFO: *******  new customer details is saved ***********
+12/21/2023 11:56:12 AM: INFO: 
+******* Verify the newly created customer ***********
+12/21/2023 11:56:13 AM: INFO: ********** Customer added successfully **************
+12/21/2023 11:56:14 AM: INFO: ***************** Test_003_Add_New_Customer is completed ******************

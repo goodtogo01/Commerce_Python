@@ -1,16 +1,14 @@
-12/12/2023 02:35:49 PM: INFO: ***************** Test_001_Start_Execution **********************
-12/12/2023 02:35:50 PM: INFO: ***************** Page Title Passed **********************
-12/12/2023 02:35:59 PM: INFO: ***************** Start Login with Valid Credentials **********************
-12/12/2023 02:35:59 PM: INFO: ***************** Varify Login Page Title **********************
-12/12/2023 02:36:12 PM: INFO: ***************** Page Title verification is Passed **********************
-12/14/2023 11:47:00 AM: INFO: ***************** Test_003_Add_New_Customer ******************
+12/20/2023 03:42:06 PM: INFO: ***************** Test_003_Add_New_Customer ******************
 
-12/14/2023 11:47:00 AM: INFO: ***************** Start Login with Valid Credentials **********************
-12/14/2023 11:47:08 AM: INFO: **************** Login Successful *******************
-12/14/2023 11:47:08 AM: INFO: ******* Start processing to adding new customer details ***********
-12/14/2023 11:47:18 AM: INFO: ******* Start adding new customer details ***********
-12/14/2023 11:47:36 AM: INFO: *******  new customer details is saved ***********
-12/14/2023 11:47:36 AM: INFO: 
+12/20/2023 03:42:06 PM: INFO: ***************** Start Login with Valid Credentials **********************
+12/20/2023 03:42:09 PM: INFO: **************** Login Successful *******************
+12/20/2023 03:42:09 PM: INFO: ******* Start processing to adding new customer details ***********
+12/20/2023 03:42:20 PM: INFO: ******* Start adding new customer details ***********
+12/20/2023 03:42:37 PM: INFO: *******  new customer details is saved ***********
+12/20/2023 03:42:37 PM: INFO: 
 ******* Verify the newly created customer ***********
-12/14/2023 11:47:36 AM: INFO: ********** Customer added successfully **************
-12/14/2023 11:47:37 AM: INFO: ***************** Test_003_Add_New_Customer is completed ******************
+12/20/2023 03:42:38 PM: INFO: ********** Customer added successfully **************
+12/20/2023 03:42:39 PM: INFO: ***************** Test_003_Add_New_Customer is completed ******************
+12/21/2023 11:52:52 AM: INFO: ***************** Test_003_Add_New_Customer ******************
+
+12/21/2023 11:52:52 AM: INFO: ***************** Start Login with Valid Credentials **********************

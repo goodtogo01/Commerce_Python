@@ -2,8 +2,6 @@ import random
 import string
 import time
 from secrets import randbelow
-from struct import unpack
-
 from utilities import XLUtils
 import pytest
 from pageObjects.LoginPage import Login_Functionalities as LP
@@ -53,7 +51,7 @@ class Test_003_Add_New_Customer:
         print("Number of Rows: ", self.rows)
         list_Status = []  # empty list for actual status
 
-        email = self.random_generator() + "@gmail.com"
+        email = self.random_generator()+"@gmail.com"
         print(email)
         addCus.setEmail(email)
 
@@ -80,11 +78,17 @@ class Test_003_Add_New_Customer:
             self.logger.info("********** Customer added successfully **************")
             driver.save_screenshot(self.save_picture + "CustomerAdded_" + self.rand + ".png")
         else:
-            driver.save_screenshot(self.save_picture + "CustomerNotAdded_" + self.rand + ".png")
+            driver.save_screenshot(self.save_picture+"CustomerNotAdded_"+self.rand+".png")
             self.logger.error("*************** Add customer is failed!! *****************")
             assert True == False
         driver.close()
         self.logger.info("***************** Test_003_Add_New_Customer is completed ******************")
 
-    def random_generator(self, size=8, chars=string.ascii_lowercase + string.digits):
+    def random_generator(self, size=8, chars=string.ascii_lowercase+string.digits):
         return ''.join(random.choice(chars) for x in range(size))
+
+
+
+
+
+

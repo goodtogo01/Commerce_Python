@@ -1,4 +1,5 @@
-12/12/2023 09:55:34 PM: INFO: ***************** Test_002_DDT_Login **********************
-12/12/2023 09:55:34 PM: INFO: ***************** Verifying Login DDT Test **********************
-12/12/2023 09:55:54 PM: INFO:  **** Satus is Passed ****
-12/12/2023 09:55:59 PM: INFO: **** Login DDT Test is Passed ****
+12/20/2023 01:04:15 PM: INFO: ***************** Test_002_DDT_Login **********************
+12/20/2023 01:04:15 PM: INFO: ***************** Verifying Login DDT Test **********************
+12/20/2023 01:04:23 PM: ERROR: **** Satus is Failed ****
+12/20/2023 01:04:23 PM: INFO: ***************** End of Login with DDT **********************
+12/20/2023 01:04:23 PM: INFO: ***************** Completed Test_002_DDT_Login **********************

@@ -1,9 +1,0 @@
-12/12/2023 12:52:33 PM: INFO: ***************** Test_001_Start_Execution **********************
-12/12/2023 09:22:51 PM: INFO: ***************** Test_002_DDT_Login **********************
-12/12/2023 09:22:51 PM: INFO: ***************** Verifying Login DDT Test **********************
-12/13/2023 03:29:59 PM: INFO: ***************** Test_003_Add_New_Customer ******************
-
-12/13/2023 03:29:59 PM: INFO: ***************** Start Login with Valid Credentials **********************
-12/13/2023 03:30:01 PM: INFO: **************** Login Successful *******************
-12/13/2023 03:30:01 PM: INFO: ******* Start processing to adding new customer details ***********
-12/13/2023 03:30:13 PM: INFO: ******* Start adding new customer details ***********
